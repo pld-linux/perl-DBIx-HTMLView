@@ -27,7 +27,7 @@ through a DBI interface and create web userinterfaces to them.
 
 %description -l pl
 DBIx::HTMLView jest zestawem modu³ów umo¿liwiaj±cych dostêp do
-relacyjnych baz danych SQL przy pomocy przegl±darki www, wykorzystuj±c
+relacyjnych baz danych SQL przy pomocy przegl±darki WWW, wykorzystuj±c
 do tego DBI.
 
 %prep
