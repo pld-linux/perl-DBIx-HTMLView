@@ -1,12 +1,12 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	DBIx
 %define	pnam	HTMLView
-Summary:	DBIx::HTMLView perl module
-Summary(pl):	Modu³ perla DBIx::HTMLView
+Summary:	DBIx::HTMLView - handling DBI relation databases and web interfaces
+Summary(pl):	DBIx::HTMLView - obs³uga relacyjnych baz danych DBI i interfejsów WWW
 Name:		perl-DBIx-HTMLView
 Version:	0.9
 Release:	5
-License:	GPL
+License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5dabf6cdfc15e60155d4b955ccb18ae3
