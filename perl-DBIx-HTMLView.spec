@@ -33,17 +33,19 @@ perl Makefile.PL
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
-
-gzip -9nf README TODO NEWS
+install *.cgi $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz *.cgi
+%doc README TODO NEWS
 %{perl_sitelib}/DBIx/*.pm
 %{perl_sitelib}/DBIx/HTMLView
 %{_mandir}/man3/*
+%dir %{_examplesdir}/%{name}-%{version}
+%attr(755) %{_examplesdir}/%{name}-%{version}/*
