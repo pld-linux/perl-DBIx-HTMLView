@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	DBIx
 %define	pnam	HTMLView
-Summary:	DBIx-HTMLView perl module
-Summary(pl):	Modu³ perla DBIx-HTMLView
+Summary:	DBIx::HTMLView perl module
+Summary(pl):	Modu³ perla DBIx::HTMLView
 Name:		perl-DBIx-HTMLView
 Version:	0.9
 Release:	4
@@ -16,11 +16,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-DBIx-HTMLView is a set of modules to handle relational SQL databases
+DBIx::HTMLView is a set of modules to handle relational SQL databases
 through a DBI interface and create web userinterfaces to them.
 
 %description -l pl
-DBIx-HTMLView jest zestawem modu³ów umo¿liwiaj±cych dostêp do
+DBIx::HTMLView jest zestawem modu³ów umo¿liwiaj±cych dostêp do
 relacyjnych baz danych SQL przy pomocy przegl±darki www, wykorzystuj±c
 do tego DBI.
 
