@@ -10,7 +10,7 @@ Summary:	DBIx::HTMLView - handling DBI relation databases and web interfaces
 Summary(pl):	DBIx::HTMLView - obs³uga relacyjnych baz danych DBI i interfejsów WWW
 Name:		perl-DBIx-HTMLView
 Version:	0.9
-Release:	5
+Release:	6
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
