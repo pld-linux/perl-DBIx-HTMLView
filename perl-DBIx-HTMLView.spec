@@ -2,9 +2,9 @@
 Summary:	DBIx-HTMLView perl module
 Summary(pl):	Modu³ perla DBIx-HTMLView
 Name:		perl-DBIx-HTMLView
-Version:	0.5
-Release:	3
-Copyright:	GPL
+Version:	0.6.1
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/DBIx/DBIx-HTMLView-%{version}.tar.gz
