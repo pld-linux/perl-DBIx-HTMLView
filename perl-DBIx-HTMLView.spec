@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	DBIx
 %define	pnam	HTMLView
-%include	/usr/lib/rpm/macros.perl
 Summary:	DBIx-HTMLView perl module
 Summary(pl):	Modu³ perla DBIx-HTMLView
 Name:		perl-DBIx-HTMLView
 Version:	0.9
-Release:	3
-
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -26,7 +25,7 @@ relacyjnych baz danych SQL przy pomocy przegl±darki www, wykorzystuj±c
 do tego DBI.
 
 %prep
-%setup -q -n DBIx-HTMLView-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
