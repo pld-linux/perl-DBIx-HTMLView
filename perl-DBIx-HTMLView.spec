@@ -7,7 +7,7 @@
 %define		pdir	DBIx
 %define		pnam	HTMLView
 Summary:	DBIx::HTMLView - handling DBI relation databases and web interfaces
-Summary(pl):	DBIx::HTMLView - obs³uga relacyjnych baz danych DBI i interfejsów WWW
+Summary(pl.UTF-8):   DBIx::HTMLView - obsÅ‚uga relacyjnych baz danych DBI i interfejsÃ³w WWW
 Name:		perl-DBIx-HTMLView
 Version:	0.9
 Release:	6
@@ -25,9 +25,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 DBIx::HTMLView is a set of modules to handle relational SQL databases
 through a DBI interface and create web userinterfaces to them.
 
-%description -l pl
-DBIx::HTMLView jest zestawem modu³ów umo¿liwiaj±cych dostêp do
-relacyjnych baz danych SQL przy pomocy przegl±darki WWW, wykorzystuj±c
+%description -l pl.UTF-8
+DBIx::HTMLView jest zestawem moduÅ‚Ã³w umoÅ¼liwiajÄ…cych dostÄ™p do
+relacyjnych baz danych SQL przy pomocy przeglÄ…darki WWW, wykorzystujÄ…c
 do tego DBI.
 
 %prep
