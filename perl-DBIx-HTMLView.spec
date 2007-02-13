@@ -7,7 +7,7 @@
 %define		pdir	DBIx
 %define		pnam	HTMLView
 Summary:	DBIx::HTMLView - handling DBI relation databases and web interfaces
-Summary(pl.UTF-8):   DBIx::HTMLView - obsługa relacyjnych baz danych DBI i interfejsów WWW
+Summary(pl.UTF-8):	DBIx::HTMLView - obsługa relacyjnych baz danych DBI i interfejsów WWW
 Name:		perl-DBIx-HTMLView
 Version:	0.9
 Release:	6
