@@ -2,10 +2,10 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test"
 			# fail on database access when DBI::mysql present
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	DBIx
 %define		pnam	HTMLView
+%include	/usr/lib/rpm/macros.perl
 Summary:	DBIx::HTMLView - handling DBI relation databases and web interfaces
 Summary(pl.UTF-8):	DBIx::HTMLView - obsługa relacyjnych baz danych DBI i interfejsów WWW
 Name:		perl-DBIx-HTMLView
@@ -15,9 +15,10 @@ License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5dabf6cdfc15e60155d4b955ccb18ae3
-BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/DBIx-HTMLView/
 BuildRequires:	perl-DBI
+BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -46,7 +47,7 @@ install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
-install *.cgi $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+cp -p *.cgi $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
