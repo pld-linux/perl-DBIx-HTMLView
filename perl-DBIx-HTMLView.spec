@@ -5,7 +5,6 @@
 
 %define		pdir	DBIx
 %define		pnam	HTMLView
-%include	/usr/lib/rpm/macros.perl
 Summary:	DBIx::HTMLView - handling DBI relation databases and web interfaces
 Summary(pl.UTF-8):	DBIx::HTMLView - obsługa relacyjnych baz danych DBI i interfejsów WWW
 Name:		perl-DBIx-HTMLView
